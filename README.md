@@ -1,21 +1,6 @@
-REAL_MT
-🟢 LIVE
+# Real_MT VPN Website
+A responsive cyber-style landing page branded as Real_MT.
 
-SECURE
-VPN
-ACCESS
-REAL_MT
+Open index.html locally or deploy the folder to Vercel/GitHub Pages.
 
-Professional digital services...
-
-┌────────┬────────┬────────┬────────┐
-│ APPS   │ LATENCY│ UPTIME │ VISITS │
-└────────┴────────┴────────┴────────┘
-
-LIVE STATUS
-────────────────────
-UPTIME     LATENCY
-5s         7ms
-
-BATTERY    STATUS
-72%        LIVE ●
+The VPN/server values are demo values. Connect real monitoring data through a secure backend before production. Never expose private VPN keys or credentials in frontend JavaScript.
