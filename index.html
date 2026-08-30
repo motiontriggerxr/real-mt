@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#030812">
+<title>Real_MT — Secure VPN Access</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="network"></canvas><div class="scanlines"></div>
+
+<header class="topbar">
+  <div class="brand-mark">REAL_<span>MT</span></div>
+  <div class="live"><i></i> LIVE</div>
+  <div class="code">ZWE</div>
+  <div id="clock">00:00:00</div>
+  <div class="user">● real_mt</div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="operational"><i></i> ALL SERVERS OPERATIONAL</div>
+  <h1>SECURE<br><strong>VPN</strong><br>ACCESS <em>ZWE</em></h1>
+  <p>Professional VPN configurations for Zimbabwe networks. Fast, reliable and maintained by <b>Real_MT</b>.</p>
+
+  <div class="stats">
+    <div><b>9</b><small>VPN APPS</small></div>
+    <div><b>7ms</b><small>LATENCY</small></div>
+    <div><b>99.99%</b><small>UPTIME</small></div>
+    <div><b id="visits">1</b><small>VISITS</small></div>
+  </div>
+</section>
+
+<section>
+ <div class="title">LIVE STATUS <span></span></div>
+ <div class="status">
+  <div><small>UPTIME</small><b class="green" id="uptime">0s</b></div>
+  <div><small>LATENCY</small><b class="blue">7ms</b></div>
+  <div><small>BATTERY</small><b class="green" id="battery">--%</b></div>
+  <div><small>ENCRYPT</small><b>AES-<br>256</b></div>
+  <div><small>STATUS</small><b class="green">LIVE ●</b></div>
+ </div>
+</section>
+
+<section>
+ <div class="title">VPN APPS <span></span></div>
+ <div class="apps">
+  <button onclick="toast('Android configuration')"><b>ANDROID</b><small>Mobile configuration</small></button>
+  <button onclick="toast('Windows configuration')"><b>WINDOWS</b><small>Desktop configuration</small></button>
+  <button onclick="toast('iOS configuration')"><b>iOS</b><small>iPhone / iPad configuration</small></button>
+ </div>
+</section>
+</main>
+<div id="toast"></div>
+<script src="script.js"></script>
+</body></html>
